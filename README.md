@@ -23,4 +23,4 @@ to your app name. Ex. com.foobar.app
 
 **Both your phone and server must be running under the same network for live reload!!**
 
-Currently only tested for IOS.
+Currently only tested for IOS.# nextitor-nextjs
