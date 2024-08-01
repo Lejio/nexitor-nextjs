@@ -1,8 +1,8 @@
-# Capacitor 6 and NextJS 14 Template
----
+# Nextitor - Cross-platform NextJS and Capacitor Template
+
 Basic template for Capacitor 6 and NextJS 14. Perfect for hackathons.
 
-### Setup
+## Setup
 ---
 
 Remember to configure capacitor.config.ts!
@@ -23,4 +23,4 @@ to your app name. Ex. com.foobar.app
 
 **Both your phone and server must be running under the same network for live reload!!**
 
-Currently only tested for IOS.# nextitor-nextjs
+Currently only tested for IOS.
