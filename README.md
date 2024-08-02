@@ -1,4 +1,4 @@
-# Nextitor - Cross-platform NextJS Template
+# Nexitor - Cross-platform NextJS Template
 
 Basic template for Capacitor 6 and NextJS 14. Perfect for hackathons.
 
