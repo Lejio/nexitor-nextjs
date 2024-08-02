@@ -10,7 +10,15 @@ To start, clone this repository and run the following command:
 npm install && react@latest react-dom@latest next@14.2.5
 ```
 
-Remember to configure capacitor.config.ts!
+### Capacitor Config
+
+Set
+```ts
+// capacitor.config.ts
+appId: 'com.xxxxxxx.app'
+```
+
+### Live Reload
 
 *Requires server local ip*
 
@@ -22,16 +30,14 @@ ipconfig getifaddr en0
 Set url to your local ip.
 
 ```ts
+// capacitor.config.ts
 server: {
-		url: `http://192.168.xxx.xxx:3000`,
+	url: 'http://192.168.xxx.xxx:3000',
         ...
 }
 ```
 
-Also set
-```
-appId: 'com.xxxxxxx.app'
-```
+Also 
 
 to your app name. Ex. com.foobar.app
 
