@@ -17,6 +17,7 @@ Set
 // capacitor.config.ts
 appId: 'com.xxxxxxx.app'
 ```
+to your app name. Ex. com.foobar.app
 
 ### Live Reload
 
@@ -38,8 +39,6 @@ server: {
 ```
 
 Also 
-
-to your app name. Ex. com.foobar.app
 
 **Both your phone and server must be running under the same network for live reload!!**
 
