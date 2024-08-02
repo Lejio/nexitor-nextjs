@@ -10,6 +10,16 @@ To start, clone this repository and run the following command:
 npm install && react@latest react-dom@latest next@14.2.5
 ```
 
+Then run the following commands assuming you have pod installed:
+
+```
+cd ./ios
+
+cd ./App
+
+pod install
+```
+
 ### Capacitor Config
 
 Set
