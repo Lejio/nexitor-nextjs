@@ -4,6 +4,12 @@ Basic template for Capacitor 6 and NextJS 14. Perfect for hackathons.
 
 ## Setup
 
+To start, clone this repository and run the following command:
+
+```
+npm install && react@latest react-dom@latest next@14.2.5
+```
+
 Remember to configure capacitor.config.ts!
 
 *Requires server local ip*
@@ -11,6 +17,15 @@ Remember to configure capacitor.config.ts!
 You can find your local ip value by running this command on linux:
 ```
 ipconfig getifaddr en0
+```
+
+Set url to your local ip.
+
+```ts
+server: {
+		url: `http://192.168.xxx.xxx:3000`,
+        ...
+}
 ```
 
 Also set
